@@ -1,8 +1,9 @@
 import * as React from 'react';
+import { Header } from './components/header';
 
 function App() {
     return (
-        <div>Hello React App from Webpack</div>
+        <Header />
     );
 };
 
