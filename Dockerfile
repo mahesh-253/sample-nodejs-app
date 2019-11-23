@@ -2,7 +2,10 @@ FROM node:8.12.0
 
 WORKDIR ./
 COPY package.json .
-RUN npm install    
+RUN npm install
 COPY . .
 
-CMD [ "npm", "start" ]  
+CMD [ "npm", "start" ]
+
+EXPOSE 5000
+ENV PORT 5000
