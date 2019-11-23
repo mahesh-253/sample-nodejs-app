@@ -1,3 +1,7 @@
-const App = () => <div>Hello React App from scratch</div>;
+import * as React from 'react';
 
-export default class App;
+function App() {
+    return (<div>Hello React App from Webpacks</div>);
+};
+
+export default App;

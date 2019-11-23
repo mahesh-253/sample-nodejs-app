@@ -7,7 +7,7 @@
     "jsx": "react",
 
     // Resolve modules using Node-resolution algorithm
-    "moduleResolution": "node",
+    //"moduleResolution": "node", // Removed after adding webpack.
 
     // Target ES6 for more modern browsers
     "target": "es6",
@@ -19,9 +19,9 @@
     "sourceMap": true,
 
     // Output to single concatenated file
-    "outFile": "out/app.js"
+    // "outFile": "out/app.js" // Removed after adding webpack.
   },
-  "include": ["src"]
+  // "include": ["src"] // Removed after adding webpack.
 }
 
 // {
