@@ -4,7 +4,9 @@
   "description": "This is read me file",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "watch": "tsc -p . -w"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/mahesh-253/sample-nodejs-app/issues"
   },
-  "homepage": "https://github.com/mahesh-253/sample-nodejs-app#readme"
+  "homepage": "https://github.com/mahesh-253/sample-nodejs-app#readme",
+  "dependencies": {
+    "@types/react": "^16.9.12",
+    "@types/react-dom": "^16.9.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "typescript": "^3.7.2"
+  }
 }
