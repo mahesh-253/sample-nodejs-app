@@ -25,3 +25,4 @@ Notes:
         - docker rmi $(docker images -f dangling=true)
         - docker images -a
         - docker images purge
+        - docker push index.docker.io/sample-nodejs-app
